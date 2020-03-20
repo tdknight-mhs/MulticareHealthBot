@@ -86,8 +86,7 @@ function initBotConversation() {
         value: {
             trigger: "covid19_assessment",
         },
-        from: user,
-        name: "covid19_assessment"
+        from: user
     }).subscribe(function(id) {});
 
     botConnection.activity$
