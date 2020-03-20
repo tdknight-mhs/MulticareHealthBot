@@ -4,9 +4,9 @@ const path = require("path");
 const jwt = require("jsonwebtoken");
 const rp = require("request-promise");
 const cookieParser = require('cookie-parser');
-const WEBCHAT_SECRET = process.env.WEBCHAT_SECRET;
+const WEBCHAT_SECRET = 'Bpsgz67XxUs.S_ZBnVjDGqnrwcpiRHdPRHbr_mvc_FNeLxiDvwnbzYA';
 const DIRECTLINE_ENDPOINT_URI = process.env.DIRECTLINE_ENDPOINT_URI;
-const APP_SECRET = process.env.APP_SECRET;
+const APP_SECRET = 'Il[8]GYea.Dsi4c01EOeXgPOdogNDoH]';
 
 // Initialize the web app instance,
 const app = express();
